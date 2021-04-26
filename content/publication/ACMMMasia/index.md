@@ -1,16 +1,16 @@
 ---
-title: "一种抗块效应的图像视频增强方法"
+title: "Structure-Preserving Extremely Low Light Image Enhancement with Fractional Order Differential Mask Guidance"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- 王正宁
-- 曾仪
-- 曾浩
-- 刘怡君
-- 彭大伟
-- 奚伟航
+- Yijun Liu
+- Zhengning Wang
+- Ruixu Geng
+- Hao Zeng
+- Dawei Peng
+- Weihang Xi
 
 
 # Author notes (optional)
@@ -18,23 +18,23 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-09-28"
-doi: "CN202011036966.2"
+date: "2020-12-01"
+# doi: "CN202011036966.2"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-12-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["8"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: 发明专利
+publication: ACM Multimedia Asia 2020
 # publication_short: In *ICW*
 
-abstract: 本发明公开了一种抗块效应的图像视频增强方法，属于计算机视觉和图像增强领域。该方法首先将压缩图像或视频帧进行颜色空间转换，通过神经网络结合图像或视频编码模型学习编码块的块效应可能出现的位置和强度，对增强的强度做出自适应调整，在满足图像和视频被有效增强的同时，抑制或消除可能被增强算法放大的块效应，提升增强图像的视觉观感和后续处理质量。
+abstract: Low visibility and high-level noise are two challenges for low-light image enhancement. In this paper, by introducing fractional order differential, we propose an end-to-end conditional generative adversarial network(GAN) to solve those two problems. For the problem of low visibility, we set up a global discriminator to improve the overall reconstruction quality and restore brightness information. For the high-level noise problem, we introduce fractional order differentiation into both the generator and the discriminator. Compared with conventional end-to-end methods, fractional order can better distinguish noise and high-frequency details, thereby achieving superior noise reduction effects while maintaining details. Finally, experimental results show that the proposed model obtains superior visual effects in low-light image enhancement. By introducing fractional order differential, we anticipate that our framework will enable high quality and detailed image recovery not only in the field of low-light enhancement but also in other fields that require details.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
