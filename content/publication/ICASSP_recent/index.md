@@ -1,5 +1,5 @@
 ---
-title: "A paper about image enhancement (under)"
+title: "PD-GAN: Perceptual-Details GAN for extremely noisy low light image enhancement"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -7,10 +7,9 @@ title: "A paper about image enhancement (under)"
 authors:
 - Yijun Liu
 - Zhengning Wang
-- Ruixu Geng
 - Yi Zeng
 - Hao Zeng
-- Dawei Peng
+- Deming Zhao
 
 
 # Author notes (optional)
@@ -18,11 +17,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-04-17"
+date: "2021-04-20"
 # doi: "CN202011036966.2"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-04-17T00:00:00Z"
+publishDate: "2021-04-20T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,10 +30,10 @@ publishDate: "2021-04-17T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Submitted to The 29th ACM International Conference on Multimedia
-publication_short: Submitted to *ACM MM*
+publication: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+publication_short: In *ICASSP*
 
-abstract: Under anonymous review
+abstract: Extremely noisy low light enhancement suffers from highlevel noise, loss of texture detail, and color degradation. When recovering color or illumination for images taken in a dark environment, the challenge for networks is how to balance the enhancement for noise and texture details for a good visual effect. A single network is not suitable for solving the ill-posed problem of mapping the input image’s noise to the clear target in the ground truth. To solve the problems, we pro-pose perceptual-details GAN (PD-GAN) utilizing Zero- DCE to initially recover illumination and combine residual dense-block Encoder-Decoder structure to suppress noise while finely adjusting the illumination. Besides, fractional differential gradient masks are integrated into the discriminator to enhance details. Experiment results demonstrate that PD-GAN outperforms other methods on the extremely low-light image dataset.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
