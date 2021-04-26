@@ -1,5 +1,5 @@
 ---
-title: "Structure-Preserving Extremely Low Light Image Enhancement with Fractional Order Differential Mask Guidance"
+title: "PD-GAN: Perceptual-Details GAN for extremely noisy low light image enhancement"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -7,9 +7,9 @@ title: "Structure-Preserving Extremely Low Light Image Enhancement with Fraction
 authors:
 - Yijun Liu
 - Zhengning Wang
-- Ruixu Geng
-- Hao Zeng
 - Yi Zeng
+- Hao Zeng
+- Deming Zhao
 
 
 # Author notes (optional)
@@ -17,11 +17,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-12-01"
+date: "2021-04-20"
 # doi: "CN202011036966.2"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-12-01T00:00:00Z"
+publishDate: "2021-04-20T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,10 +30,10 @@ publishDate: "2020-12-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ACM Multimedia Asia 2020
-# publication_short: In *ICW*
+publication: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+publication_short: In *ICASSP*
 
-abstract: Low visibility and high-level noise are two challenges for low-light image enhancement. In this paper, by introducing fractional order differential, we propose an end-to-end conditional generative adversarial network(GAN) to solve those two problems. For the problem of low visibility, we set up a global discriminator to improve the overall reconstruction quality and restore brightness information. For the high-level noise problem, we introduce fractional order differentiation into both the generator and the discriminator. Compared with conventional end-to-end methods, fractional order can better distinguish noise and high-frequency details, thereby achieving superior noise reduction effects while maintaining details. Finally, experimental results show that the proposed model obtains superior visual effects in low-light image enhancement. By introducing fractional order differential, we anticipate that our framework will enable high quality and detailed image recovery not only in the field of low-light enhancement but also in other fields that require details.
+abstract: Extremely noisy low light enhancement suffers from highlevel noise, loss of texture detail, and color degradation. When recovering color or illumination for images taken in a dark environment, the challenge for networks is how to balance the enhancement for noise and texture details for a good visual effect. A single network is not suitable for solving the ill-posed problem of mapping the input image’s noise to the clear target in the ground truth. To solve the problems, we pro-pose perceptual-details GAN (PD-GAN) utilizing Zero- DCE to initially recover illumination and combine residual dense-block Encoder-Decoder structure to suppress noise while finely adjusting the illumination. Besides, fractional differential gradient masks are integrated into the discriminator to enhance details. Experiment results demonstrate that PD-GAN outperforms other methods on the extremely low-light image dataset.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
