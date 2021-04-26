@@ -1,5 +1,5 @@
 ---
-title: "一种基于多层特征混合与注意力机制的目标跟踪方法"
+title: "一种基于编解码结构的目标跟踪方法"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -8,11 +8,10 @@ authors:
 - 王正宁
 - 曾浩
 - 潘力立
-- 何庆东
-- 刘怡君
+- 赵德明
 - 曾仪
+- 刘怡君
 - 彭大伟
-
 
 
 # Author notes (optional)
@@ -21,7 +20,7 @@ authors:
 # - "Equal contribution"
 
 date: "2020-06-09"
-doi: "CN202010518472.1"
+doi: "CN202010518310.8"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-06-09T00:00:00Z"
@@ -36,7 +35,7 @@ publication_types: ["8"]
 publication: 发明专利
 # publication_short: In *ICW*
 
-abstract: 本发明公开了一种基于多层特征混合与注意力机制的目标跟踪方法，该方法利用改进的FPN结构将图像浅层特征加以更好的保留利用，这种对浅层特征有更好保留的改进的FPN结构可以输出具有多维度、多尺度特征的融合特征。对不同尺度大小的目标，以及大小在不断变化的目标拥有更好的跟踪能力。将FPN用于级联的RPN上，对于特征提取更加精准，对于保证跟踪时对于相似干扰物有更好的区分，减少错误跟踪的情况发生。同时，利用注意力机制，在空间尺度上，使得网络对目标可能出现的位置给予更多关注，以减少由目标半遮挡，形变，光照等造成的目标丢失或目标跟踪错误的情况。
+abstract: 本发明公开了一种基于编解码结构的目标跟踪方法，该方法使用编码器‑解码器与鉴别器组合，构建类似生成对抗网络结构，使得编码器提取的特征更加泛化，学习到被跟踪对象的本质特征。由于对象帧中存在被半遮挡、受到光照、运动模糊影响的对象，使得网络受到这些影响更小，更具鲁棒性。使用Focal Loss使用替代传统的交叉熵损失函数，使得网络减少易分类样本的损失，使得模型更关注于困难的、错分的样本，同时平衡正负样本数量的不均衡。使用Distance‑U loss作为回归损失，不仅关注重叠区域，还关注其他的非重合区域，具有尺度不变性，可以为边界框提供移动方向，同时具有较快的收敛速度。
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
