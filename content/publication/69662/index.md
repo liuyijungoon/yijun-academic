@@ -42,7 +42,7 @@ abstract: 本发明公开了一种抗块效应的图像视频增强方法，属�
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
