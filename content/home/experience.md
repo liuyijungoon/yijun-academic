@@ -36,7 +36,7 @@ experience:
         * Modelling
         * Deploying
 
-  - title: Image video coding
+  - title: Image and video coding
     company: Image Processing Institute, UESTC
     company_url: ''
     company_logo: uestc
