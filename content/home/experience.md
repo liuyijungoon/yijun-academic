@@ -36,6 +36,21 @@ experience:
         * Modelling
         * Deploying
 
+  - title: Two-dimensional classification of pixels in 3D river image
+    company: Multi-dimensional information processing Institute, UESTC
+    company_url: ''
+    company_logo: uestc
+    location: China
+    date_start: '2018-10-01'
+    date_end: '2019-06-01'
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
+
+
   - title: Image and video coding
     company: Image Processing Institute, UESTC
     company_url: ''
