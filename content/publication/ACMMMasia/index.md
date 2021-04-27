@@ -38,7 +38,7 @@ abstract: Low visibility and high-level noise are two challenges for low-light i
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags: [Low-light, Image enhancement, GAN, Fractional order differential]
 
 # Display this page in the Featured widget?
 featured: true
