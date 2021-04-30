@@ -5,7 +5,7 @@ title: "A paper about image enhancement"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Yijun Liu
+- [1]Yijun Liu
 - Zhengning Wang
 - Ruixu Geng
 - Yi Zeng
@@ -32,14 +32,14 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: Submitted to The 29th ACM International Conference on Multimedia
-publication_short: Submitted to *ACM MM*
+publication_short: Submitted to a CCF A conference
 
 abstract: Under anonymous review
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Image enhancement, Transformer]
+tags: [low-light, compressed, Image enhancement, Transformer]
 
 # Display this page in the Featured widget?
 featured: true

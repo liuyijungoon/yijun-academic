@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Low-light Image Enhancement
+  - title: compressed Low-light Image Enhancement
     company: Image Processing Institute, UESTC
     company_url: ''
     company_logo: uestc
@@ -32,9 +32,22 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Existing low-light enhancement methods completely ignore the phenomenon of low-light image blocking artifacts caused by compression. After the compressed low-light image is enhanced, it will amplify the blocking artifacts, destroy the texture details, and appear color cast. Therefore, low-light compression image enhancement with a small quality factor is a comprehensive problem involving image enhancement and image restoration. Research on compressed low-light image enhancement has practical significance.
+
+
+  - title: noisy Low-light Image Enhancement
+    company: Image Processing Institute, UESTC
+    company_url: ''
+    company_logo: uestc
+    location: China
+    date_start: '2020-05-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * For quality evaluation of compressed images, Chebyshev moments have its advantages. Chebyshev moments of order n are symmetrical. When compressing an image, the image is divided into multiple blocks. Transformation and quantization operations can cause blocking artifacts in the image. The value of the Chebyshev moment is symmetrical. The Chebyshev moment is represented by $P$, and the image block is re-divided (across the boundary of four blocks) by $B$. $P*B$ can detect the horizontal block boundary to capture the characteristics of the blocking artifacts.
+        * Chebyshev moments are used to evaluate the image quality of low-light images with different compression factors and different enhancement levels. It is found that this method cannot be correctly evaluated on the compressed low-light images. The reason is that if the pixel value of the entire block is multiplied by the same number, the Chebyshev moment score is the same.
+        * Try to improve the Chebyshev moment evaluation method, but we failed. Therefore, it is only used as the quality evaluation of images under normal illumination. Used in the paper.
 
   - title: Two-dimensional classification of pixels in 3D river image
     company: Multi-dimensional information processing Institute, UESTC
