@@ -60,7 +60,7 @@ experience:
         * Convert the RAW format dataset SID proposed in the Learning to See In the Dark paper to sRGB dataset. We combine residual denseblock, Unet and Zero-DCE for low light enhancement under the framework of GAN. Use perceptual loss, L1 loss, and fractional differential loss to counter loss to guide the network to complete low-light image enhancement.
         *Successfully complete low-light image enhancement, restore illuminance and color, eliminate noise, and enhance texture details. Based on this, complete the paper "PD-GAN: Perceptual-Details GAN for extremely noisy low light image enhancement".
 
-    - title: Fractional differential
+  - title: Fractional differential
     company: Image Processing Institute, UESTC
     company_url: ''
     company_logo: uestc
