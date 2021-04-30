@@ -19,8 +19,9 @@ bio: My research interests include compiter vision and multimedia.
 # Interests to show in About widget
 interests:
 - Computer Vision
-- Multimedia
+- Multimodal learning
 - Image Enhancement
+
 
 # Education to show in About widget
 education:
