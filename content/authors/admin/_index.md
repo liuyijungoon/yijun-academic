@@ -21,6 +21,7 @@ interests:
 - Computer Vision
 - Multimodal learning
 - Image Enhancement
+- Computational Imaging
 
 
 # Education to show in About widget
