@@ -5,7 +5,7 @@ title: "Compressed low-light image enhancement and restoration with content migr
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- [1]Yijun Liu
+- Yijun Liu
 - Zhengning Wang
 - Ruixu Geng
 - Yi Zeng
