@@ -74,4 +74,4 @@ I am a second-year master student at the University of Electronic Science and Te
 
 I received my Bachelor of Engineering Degree at UESTC in 2019.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}} or {{< staticref "media/demo_resume.pdf" "newtab" >}}简历{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}} or {{< staticref "media/demo_resume.pdf" "newtab" >}}简历{{< /staticref >}}. -->
