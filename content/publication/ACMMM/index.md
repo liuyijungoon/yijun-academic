@@ -1,5 +1,5 @@
 ---
-title: "A paper about image enhancement"
+title: "Compressed low-light image enhancement and restoration with content migration transformer"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
